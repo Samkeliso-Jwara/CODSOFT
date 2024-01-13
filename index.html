@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samkeliso's Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2 class="logo"><span>S</span>amkeliso.</h2>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <a href="#contact" class="btn-connect">Let's Connect</a>
+    </header>
+    <section class="home">
+        <div class="content">
+            <h2>Hi, I'm <span>Samkeliso Jwara</span></h2>
+            <h4>Full Stack Software Engineer</h4>
+            <p>Hi! I'm Samkeliso Jwara, an Honours  graduate with a passion for technology and a focus on Full Stack Software Engineering. Explore my journey, skills, and projects as I navigate the ever-evolving world of software development. <span>Let's turn ideas into reality together.</span></p>
+            <div class="btn-group">
+                <a href="#">Hire Me</a>
+                <a href="#portfolio">See Projects</a>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/samkeliso-jwara"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com/SxmAtlxs"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Me2.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subTitle">About Me</h1>
+                    <p>Greetings! I'm Samkeliso Jwara, an Honours graduate with a passion for technology and a focus on Full Stack Software Engineering. Explore my journey, skills, and projects as I navigate the ever-evolving world of software development. Let's turn ideas into reality together.</p>
+                   
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills"> 
+                        <ul>
+                            <li><span>Web Development</span><br>Developing Web Applications</li>
+                            <li><span>Cybersecurity</span><br>Knowledge about Security</li>
+                            <li><span>Programming</span><br>C#, Java, C++</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022  -  Current</span><br>Course Facilitator at FPT Academy</li>
+                            <li><span>2021  -  2022</span><br>Yes4Youth Working Student at ProudAfrique</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>Honours from Richfield</li>
+                            <li><span>2020</span><br>BSc - IT from Richfield</li>
+                            <li><span>2019</span><br>Matric at Lethabong Secondary School</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container"></div>
+        <h1 class="subTitle">Portfolio</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Project1.png" alt="" width="430" height="450" >
+                <div class="layer">
+                    <h3>Online Attendance Register</h3>
+                    <p>Revolutionizing attendance for virtual classes, this platform enables remote attendance marking. No more manual tracking - just efficient and convenient solutions.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Project2.png" alt="" width="430" height="450">
+                <div class="layer">
+                    <h3>Website for Eco Heroes</h3>
+                    <p> I created this website for my team during a hackathon that was taking place</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Project3.png" alt="" width="43" height="450">
+                <div class="layer">
+                    <h3>More Projects Coming Soon</h3> <br>
+                    <p> tMore projects will be presented soon!</p>
+                </div>
+            </div>
+        </div>
+        <a href="images/Samkeliso Jwara - CV.pdf" download="Samkeliso Jwara CV.pdf" class="btn">Download Resume</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subTitle">Contact Me</h1>
+                    <p><i class="fa-regular fa-paper-plane"></i>samjwara01@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>0815296470</p>
+                    <div class="social-icons2">
+                        <a href="https://www.linkedin.com/in/samkeliso-jwara"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/SxmAtlxs"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://twitter.com/SxmAtlxs"><i class="fa-brands fa-instagram"></i></a>
+
+                    </div>
+
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Enter your name" required>
+                        <input type="email" name="email" placeholder="Enter your email" required>
+                        <textarea name="Message" rows="6" placeholder="Enter your Message"></textarea>
+                        <button type="submit" class="submitbtn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <footer>
+                <p>Copyright &copy; Samkeliso Jwara. Portfolio 2024</p>
+            </footer>
+        </div>
+    </section>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+</body>
+</html>
